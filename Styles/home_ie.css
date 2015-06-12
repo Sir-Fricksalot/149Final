@@ -1,0 +1,140 @@
+body{
+	width:1024px;
+	color:#081472;
+	font-family: Consolas, Monospace;
+	margin:auto;
+	background-color:#00B64F;
+	font-size:16px;
+}
+
+h1,h2,h3,h4{
+	font-family: Trebuchet MS, Sans-Serif;
+}
+h1{
+	font-size:80px;
+	margin-top:0px;
+
+}
+h4{
+	font-size:32px;
+	margin-bottom:0px;
+}
+
+
+header{
+	width:1024px;
+	background-size:cover;
+	height:450px;
+	background-image:url("../images/will_banner.jpg");
+}
+
+.topper{
+	width:824px;
+	height:120px;
+	text-align:center;
+	background-color:#FF9800;
+	margin:auto;
+
+}
+
+
+nav{
+	background-color:#FF9800;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:260px;
+	width:1024px;
+	height:50px;
+	font-weight:bold;
+	text-align:center;
+	font-size:22px;
+}
+
+
+nav a {
+	text-decoration:none;
+}
+nav a:link {
+	color:#081472;
+}
+nav a:visited{
+	color:#344873;
+}
+nav a:hover{
+	color:#ffffff;
+}
+nav ul{
+	list-style-type:none;
+	margin:0px;
+	margin-top:10px;
+	padding:0px;
+	text-align:center;
+}
+nav li{
+	float:left;
+	text-align:center;
+	padding:0px;
+	padding-left:48px;
+}
+nav li ul li{
+	padding: 5px;
+	float:none;
+	text-align:left;
+}
+.top_nav li{
+
+}
+
+#info:hover .sub_nav{
+	display:inline-block;
+}
+
+.sub_nav{
+	display:none;
+	background-color:#FF8900;
+	position:absolute;
+	float:none;
+	width:200px;
+}
+.sub_nav ul{
+	padding:0px;
+	margin:0px;
+	clear:both;
+	float:none;
+	text-align:left;
+	padding-left:0px;
+}
+.sub-nav li{
+    list-style-type: none;
+    display: block;
+	float:none;
+	padding:0px 0px 0px 0px;
+	margin:0px;
+	padding-left:0px;
+}
+
+main h3{
+	text-align:center;
+	font-size: 24px;
+}
+
+main{
+
+	margin:20px;
+	padding:20px;
+width:500px;
+	clear:both;
+
+}
+
+footer{
+	width:1024px;
+	max-width:1024px;
+	height:20px;
+	background-color:#FF9800;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+}

@@ -1,0 +1,126 @@
+body{
+	width:1024px;
+	color:#081472;
+	font-family: Consolas, Monospace;
+	margin:auto;
+	background-color:#081472;
+	font-size:16px;
+}
+
+h1,h2,h3,h4{
+	font-family: Trebuchet MS, Sans-Serif;
+}
+h1{
+	font-size:80px;
+	margin-top:0px;
+
+}
+h4{
+	font-size:32px;
+	margin-bottom:0px;
+}
+
+
+.topper{
+	width:824px;
+	height:120px;
+	text-align:center;
+	background-color:#00B64F;
+	margin:auto;
+
+}
+
+
+nav{
+	background-color:#00B64F;
+	width:180px;
+	font-size:24px;
+	float:left;
+	padding:10px 7px;
+	border: 3px solid #081472;
+}
+
+
+nav a {
+	text-decoration:none;
+}
+nav a:link {
+	color:#081472;
+}
+nav a:visited{
+	color:#344873;
+}
+nav a:hover{
+	color:#ffffff;
+}
+nav ul{
+	list-style-type:none;
+	margin:0px;
+	margin-top:10px;
+	padding:0px;
+	padding-left:10px;
+}
+nav li{
+	padding-bottom:5px;
+}
+
+#gallery img{
+	padding:20px;
+}
+
+
+main h3{
+	text-align:center;
+	font-size: 24px;
+}
+main div{
+	float:left;
+	font-size:18px;
+}
+
+main img{
+	float:left;
+	padding:5px;
+}
+main li{
+	float:left;
+}
+#retailers{
+	list-style-type:none;
+}
+#brands{
+	list-style-type:none;
+	text-align:center;
+}
+#brands li{
+	padding:15px;
+	width: 325px;
+	float:left;
+}
+#brands li a{
+	text-align:center;
+}
+
+main{
+	width:778px;
+	float:left;
+	border:3px solid #081472;
+	margin:0px;
+	padding:20px;
+	background-color:#FF9800;
+}
+main a, b{
+	font-size:20px;
+}
+
+
+footer{
+	width:1024px;
+	max-width:1024px;
+	height:20px;
+	background-color:#00B64F;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+	clear:both;
+}

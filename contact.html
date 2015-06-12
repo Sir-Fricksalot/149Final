@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Contact</title>
+		<meta charset="UTF-8" />
+		<meta name="author" content="Taylor Smith" />
+		<link rel="stylesheet" href="Styles/secondary.css" />
+	</head>
+
+	<body>
+		<header>
+			<div class="topper">
+				<h4>Taylor Smith's Disc Golf Website</h4>
+				<h1>Contact</h1>
+			</div>
+		</header>
+		<nav>
+			<a href="index.html">\\Home</a><br>
+			<ul>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		<main>
+			<h3></h3>
+			<table id="two_col">
+				<tr>
+					<td class="contact">
+						<h3>My Contact Info:</h3>
+						<p>
+							2107 S F St<br>
+							Apt. 3<br>
+							Spokane, WA<br>
+							99224<br>
+							<br>
+							(509) 954-0816<br>
+							<br>
+							<a href="mailto:righteousquesty@gmail.com">Righteousquesty@gmail.com</a>
+						</p>
+					</td>
+					
+					<td id="form">
+						<form class="contact" action="mailto:lkomarek@scc.spokane.edu" method="post">
+							<p>
+								<label for="name">Name:</label>
+								<input class="box" name="name" type="text" />
+							</p>
+							<p>
+								<label for="email">Email Address:</label>
+								<input class="box" name="email" type="email" placeholder="name@domain.com" required/>
+							</p>
+							<p>
+								<label for="phone">Phone:</label>
+								<input class="box" name="phone" type="tel" placeholder="xxx-xxx-xxxx">
+							</p>
+							<p>
+								<fieldset>
+									<legend>Preferred method of contact:</legend>
+									<input type="radio" name="method" value="Phone" />Phone
+									<input type="radio" name="method" value="Email" />Email
+								</fieldset>
+							</p>
+							<p>
+								<label for="reason">Reason for contact:</label>
+								<select name="reason">
+									<option value="general question">General question</option>
+									<option value="website feedback">Website feedback</option>
+									<option value="technical problems">Technical problems</option>
+								</select>
+							</p>
+							<p>
+								<fieldset>
+									<legend>Topics:</legend>
+									<input type="checkbox" name="topic" value="Danger" />Danger
+									<input type="checkbox" name="topic" value="Equipment" />Equipment<br>
+									<input type="checkbox" name="topic" value="Techniques" />Techniques
+									<input type="checkbox" name="topic" value="Events" />Events
+								</fieldset>
+							</p>
+							<p>
+								<textarea cols="38" rows="4" placeholder="Your message goes here"></textarea>
+							</p>
+							<input name="reset" type="reset" value="Reset" />
+							<input id="button" name="submit" type="submit" value="Submit" />
+							
+						</form>
+					</td>
+				</tr>
+			</table>
+		</main>
+		<footer>
+			&copy; Taylor Smith 2014
+		</footer>
+		
+	</body>
+</html>
